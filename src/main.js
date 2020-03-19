@@ -1,15 +1,14 @@
-// let html = document.querySelector("#html");
-// let style = document.querySelector("#style");
-
 const string = `
 .skin *{box-sizing: border-box;margin: 0;padding: 0;}
 .skin *::before, .skin *::after{box-sizing: border-box;}
+
 
 .skin{
   background: #ffe600;
   min-height: 50vh;
   position: relative;
 }
+
 .nose{
   border: 10px solid black;
   border-color: black transparent transparent;
@@ -22,6 +21,7 @@ const string = `
   margin-left: -10px;
   z-index: 10;
 }
+
 @keyframes wave{
   0%{
     transform: rotate(0deg);
@@ -36,11 +36,14 @@ const string = `
     transform: rotate(0deg);
 }
 
+，
+
 }
 .nose:hover{
   transform-origin: center bottom;
   animation: wave 300ms infinite linear;
 }
+
 
 .yuan{
   position: absolute;
@@ -75,6 +78,7 @@ const string = `
   left: 4px;
   top: 2px;
 }
+
 .eye.left{
   transform: translateX(-100px);
 }
@@ -94,6 +98,7 @@ const string = `
   top: -20px;
   z-index: 1;
 }
+
 .mouth .up .lip{
   border: 3px solid black;
   height: 30px;
@@ -106,6 +111,7 @@ const string = `
   left: 50%;
   margin-left: -50px;
 }
+
 .mouth .up .lip.left{
   border-radius: 0 0 0 50px;
   transform: rotate(-15deg) translateX(-53px);
@@ -114,6 +120,7 @@ const string = `
   border-radius: 0 0 50px 0px;
   transform: rotate(15deg) translateX(53px);
 }
+
 .mouth .up .lip::before{
   content: '';
   display: block;
@@ -137,7 +144,9 @@ const string = `
   width: 100%;
   overflow: hidden;
 }
+
 .mouth .down .yuan1{
+
   border: 3px solid black;
   width: 150px;
   height: 1000px;
@@ -163,7 +172,7 @@ const string = `
 .face{
   position: absolute;
   left: 50%;
-  border: 3px solid black;
+  border: 1.8px solid black;
   width: 88px;
   height: 88px;
   top: 200px;
@@ -175,6 +184,7 @@ const string = `
   top: 50%;
   left: 50%;
 }
+
 .face.left{
   transform: translateX(-180px);
   background: #ff0000;
@@ -189,6 +199,15 @@ const string = `
   background: #ff0000;
   border-radius: 50%;
 }
+既然你诚心诚意的发问了
+ 那我就大发慈悲的告诉你
+为了防止世界被破坏
+为了保护世界的和平
+贯彻爱与真实的邪恶
+可爱又迷人的反派角色，武藏，小次郎
+我们是穿梭在银河的火箭队-白洞
+白色的明天在等着我们，就是这样！
+喵！
 `;
 
 export default string;
